@@ -17,7 +17,7 @@ async function getDogByBreed(breed) {
         const image = document.querySelector('#image');
         image.src = response.data.message;
     } catch (e) {
-        alert('hey BOI!!! BREED NOT FOUND ')
+        alert('SORRY, BREED NOT FOUND ')
         getRandomDog();
     }
     
